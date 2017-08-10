@@ -1,0 +1,40 @@
+<!--
+  Generated template for the StationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color = van>
+    <ion-title>station</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <div #map id="map"></div>
+     <div id="infowindow-contentpickup">
+      <span id="Station"  class="title"></span><br>
+      <span id="StationName"></span>
+    </div>
+      <div id="infowindow-contentdropoff">
+      <span id="Station"  class="title"></span><br>
+      <span id="StationName"></span>
+    </div>
+
+
+    <div >
+    <ion-card id='booking-button'>
+  <ion-item> 
+    <span item-left>Price</span>
+    <span item-left>50 Bath</span>
+    <button ion-button icon-left outline item-end  (click)='passdata()'>
+      <ion-icon name="navigate"></ion-icon>
+      Confirm
+    </button>
+  </ion-item>
+  </ion-card> 
+</div>
+</ion-content>

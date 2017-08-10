@@ -1,0 +1,29 @@
+page-station {
+   #map {
+        height: 100%;
+      }
+   #infowindow-contentpickup .title {
+        font-weight: bold;
+      }
+
+      #infowindow-contentpickup {
+        display: none;
+      }
+
+      #map #infowindow-contentpickup {
+        display: inline;
+      }
+        #infowindow-contentdropoff .title {
+        font-weight: bold;
+      }
+
+      #infowindow-contentdropoff {
+        display: none;
+      }
+
+      #map #infowindow-contentdropoff {
+        display: inline;
+      }
+  
+  
+}
