@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color = van>
     <ion-title>login</ion-title>
   </ion-navbar>
 
@@ -24,10 +24,10 @@
     <ion-input type="number" [(ngModel)]="phoneNumber"></ion-input>
   </ion-item>
   
-  <button ion-button id="sign-in-button" (click)="signIn(phoneNumber,country)">
+  <button ion-button full id="sign-in-button" (click)="signIn(phoneNumber,country)">
     Sign In
   </button>
-<button ion-button (click)="test()"></button>
+
 
 
 </ion-content>
